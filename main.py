@@ -1,13 +1,13 @@
 user = {
     'age': 30,
     'username': 'Samarai',
-    'weapons': ['fist',],
+    'weapons': False,
     'is_active': True,
     'clan': 'Treaty'
 }
 print(user.keys())
 
-user['weapons'].append('shield')
+user['weapons'].append['shield']
 print(user)
 
 user.update({'is_banned': False})
